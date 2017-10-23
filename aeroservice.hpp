@@ -8,8 +8,8 @@
 #include <aerospike/as_record_iterator.h>
 
 #define NS_COMMON 			"asdb"
-#define SET_MTVUSER 		"mtvuser"
-#define BIN_NEWS_USERS_TIME	"news_users"
+#define SET_NAME			"mtvuser"
+#define BIN_NAME			"users"
 
 class AeroService {
 public:
