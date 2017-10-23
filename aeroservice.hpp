@@ -7,35 +7,9 @@
 #include <aerospike/aerospike_key.h>
 #include <aerospike/as_record_iterator.h>
 
-// 视频ip库数据
-#define NS_COMMON "asdb"
-#define SET_TVIPLIB "tviplib"
-#define BIN_GAPIP "gapip"
-#define BIN_CHEATIP "cheatip"
-#define BIN_CHEATIP2 "cheatip2"
-#define BIN_CHEATIPRT "cheatiprt"
-#define BIN_MZIPS "mzips"
-#define SET_TV_SPAM_IP "tvspamiplib"
-#define BIN_TV_SPAM_IP "spamip"
-
-// 视频移动端用户信息数据
-#define SET_MTVUSER "mtvuser"
-#define BIN_CPM2 "cpm2"
-#define BIN_CONFLICT "conflict"
-#define BIN_BARTURN "barturn"
-#define BIN_ABNORMAL_IMEI       "ban_imei"
-#define BIN_ABNORMAL_MAC        "ban_mac"
-#define BIN_ABNORMAL_IDFA       "ban_idfa"
-#define BIN_ABNORMAL_ANDROIDID  "ban_androidid"
-#define BIN_NEWS_USERS_TIME     "news_users"
-
-#define SET_DMP3RD   "dmp"
-#define SET_USERPULSE   "userpulse"
-
-// ctr组app文章页中插标签
-#define NS_CTR       "asdb"
-#define SET_CTR      "ctr_appnewstag_v1_1"
-#define BIN_CTR      "appnewstag"
+#define NS_COMMON 			"asdb"
+#define SET_MTVUSER 		"mtvuser"
+#define BIN_NEWS_USERS_TIME	"news_users"
 
 class AeroService {
 public:
